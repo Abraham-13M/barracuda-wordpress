@@ -1,0 +1,84 @@
+/* Corrección del footer */
+footer,
+footer p,
+footer span,
+footer li,
+footer a {
+    color: #ffffff !important;
+}
+
+footer a:hover {
+    color: #cccccc !important;
+}
+
+/* Igualar las tarjetas de Our last posts */
+#news .post-preview {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+#news .post-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+#news .post-item {
+    display: flex;
+}
+
+#news .post {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#news .post-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#news .post-more {
+    margin-top: auto;
+}
+
+/* Alinear las 3 noticias de Our last posts */
+#news .blog-grid .post-preview {
+    width: 100% !important;
+    height: 250px !important;
+    overflow: hidden !important;
+}
+
+#news .blog-grid .post-preview img {
+    width: 100% !important;
+    height: 250px !important;
+    object-fit: cover !important;
+    display: block !important;
+}
+
+#news .blog-grid .post-title {
+    min-height: 105px;
+}
+
+#news .blog-grid .post-content {
+    min-height: 115px;
+}
+
+#news .blog-grid .post-item {
+    display: flex;
+}
+
+#news .blog-grid .post {
+    width: 100%;
+}
+
+#news .post-title {
+    min-height: 110px;
+}
+
+#news .post-content {
+    min-height: 120px;
+}
